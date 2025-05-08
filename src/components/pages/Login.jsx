@@ -88,7 +88,6 @@ const Login = () => {
                 <title> Login | IceNest</title>
               </Helmet>
 
-              <Navbar></Navbar>
         
         <div className='flex justify-center min-h-screen items-center'>
  
@@ -114,7 +113,6 @@ const Login = () => {
         </div>
         </div>
 
-        <Footer></Footer>
         </>
     );
 

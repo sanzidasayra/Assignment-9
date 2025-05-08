@@ -21,15 +21,14 @@ const MySubscription = () => {
 
   return (
     <>
-    <Navbar/>
     <div className="w-11/12 md:w-10/12 mx-auto mt-10">
       <h1 className="text-2xl font-bold mb-6 text-center">My Subscriptions</h1>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {subscriptions.map((box) => (
           <div
             key={box.id}
-            className="border shadow-md rounded-lg p-4 bg-white"
-          >
+            className="border border-gray-50 shadow-lg bg-white/70 rounded-lg p-4 backdrop-blur-lg bg-opacity-60"
+            >
             <img
               src={box.thumbnail || box.banner}
               alt={box.name}

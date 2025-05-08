@@ -16,6 +16,7 @@ const SubBoxCardDetails = () => {
   const [showReviewSection, setShowReviewSection] = useState(false);
   const [subscribed, setSubscribed] = useState(false);
 
+
   const handleReviewSubmit = (e) => {
     e.preventDefault();
 
@@ -48,7 +49,6 @@ const SubBoxCardDetails = () => {
 
   return (
     <div>
-      <Navbar />
 
       <div className="w-11/12 md:w-10/12 mx-auto border bg-blue-50 border-blue-50 shadow-2xl p-6 md:p-10 mt-10 md:mt-20 rounded-2xl">
         <div className="flex flex-col lg:flex-row gap-6 md:gap-10">
@@ -127,47 +127,56 @@ const SubBoxCardDetails = () => {
 
         
         {showReviewSection && (
-          <div className="mt-8">
-            <h1 className="font-semibold text-lg">Leave a Review</h1>
-            <textarea
-              placeholder="Write your review here"
-              className="w-full md:w-8/12 border p-2 mt-2"
-              value={reviewText}
-              onChange={(e) => setReviewText(e.target.value)}
-            ></textarea>
+  <div className="mt-10 bg-blue-100/60 border border-blue-200 rounded-xl p-6 shadow-inner backdrop-blur">
+    <h1 className="font-semibold text-xl text-blue-900 mb-4">❄️ Share Your Cozy Thoughts</h1>
 
-            <input
-              className="w-full md:w-4/12 p-2 mt-2"
-              type="number"
-              placeholder="Rating (1-5)"
-              value={rating}
-              onChange={(e) => setRating(e.target.value)}
-            />
+    <form onSubmit={handleReviewSubmit} className="space-y-4">
+      <textarea
+        placeholder="Write your review..."
+        className="w-full rounded-lg border border-blue-300 p-3 focus:ring-2 focus:ring-blue-400 text-sm resize-none"
+        value={reviewText}
+        onChange={(e) => setReviewText(e.target.value)}
+        rows={4}
+      ></textarea>
 
-            <button
-              onClick={handleReviewSubmit}
-              className="btn btn-primary mt-2 w-full sm:w-auto"
-            >
-              Submit
-            </button>
+<div className='flex gap-10'>
+      <input
+        type="number"
+        placeholder="Rating (1-5)"
+        className="w-full sm:w-40 rounded-lg border border-blue-300 p-2 focus:ring-2 focus:ring-blue-400 text-sm"
+        value={rating}
+        onChange={(e) => setRating(e.target.value)}
+        min="1"
+        max="5"
+      />
 
-            <div className="mt-6">
-              <h3 className="font-bold text-base md:text-lg">User Reviews:</h3>
-              {reviews.length === 0 ? (
-                <p>No reviews yet.</p>
-              ) : (
-                <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-                  {reviews.map((rev, i) => (
-                    <div key={i} className="border p-3 rounded bg-white">
-                      <p className="text-sm md:text-base">{rev.text}</p>
-                      <p className="text-xs text-gray-500">Rating: {rev.rating}</p>
-                    </div>
-                  ))}
-                </div>
-              )}
+      <button
+        type="submit"
+        className="bg-blue-700 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg transition duration-300 shadow-md"
+      >
+        Submit Review
+      </button>
+      </div>
+    </form>
+
+    <div className="mt-8">
+      <h3 className="font-bold text-lg text-blue-800 mb-2">🧣 What Others Say:</h3>
+      {reviews.length === 0 ? (
+        <p className="text-sm text-gray-600 italic">No reviews yet. Be the first to warm us with your words!</p>
+      ) : (
+        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+          {reviews.map((rev, i) => (
+            <div key={i} className="bg-white border border-blue-200 p-4 rounded-lg shadow-sm">
+              <p className="text-gray-800 text-sm">{rev.text}</p>
+              <p className="text-blue-600 text-xs mt-2">⭐ Rating: {rev.rating}</p>
             </div>
-          </div>
-        )}
+          ))}
+        </div>
+      )}
+    </div>
+  </div>
+)}
+
       </div>
 
       <div className="flex justify-center mt-6">
@@ -176,7 +185,6 @@ const SubBoxCardDetails = () => {
         </Link>
       </div>
 
-      <Footer />
     </div>
   );
 };

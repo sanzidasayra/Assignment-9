@@ -12,7 +12,8 @@ const Register = () => {
   const navigate = useNavigate();
   const [showPassword, setShowPassword] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
-  const { createUser, updateUser, setUser } = useContext(AuthContext);
+  const { createUser, updateUser, setUser, googleSignIn } = useContext(AuthContext);
+
 
   const handleRegister = (e) => {
     e.preventDefault();
@@ -45,12 +46,26 @@ const Register = () => {
       });
   };
 
+  const handleGoogleSignIn = () => {
+    googleSignIn()
+      .then((result) => {
+        const loggedInUser = result.user;
+        setUser(loggedInUser);
+        toast.success("Logged in with Google!");
+        setUser(loggedInUser);
+        navigate('/');
+      })
+      .catch((error) => {
+        console.error(error);
+        setErrorMessage(error.message);
+      });
+  };
+  
   return (
     <>
       <Helmet>
         <title>Register | IceNest</title>
       </Helmet>
-      <Navbar />
       <div className='flex justify-center min-h-screen items-center'>
         <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
           <h1 className='font-semibold text-center text-2xl pt-8'>Register your account</h1>
@@ -87,9 +102,10 @@ const Register = () => {
 
               <button type="submit" className="btn btn-neutral mt-4">Register</button>
 
-              <button type="button" className="btn btn-neutral mt-1">
-                <FcGoogle size={24} />Login with Google
+              <button type="button" onClick={handleGoogleSignIn} className="btn btn-neutral mt-1">
+               <FcGoogle size={24} /> Login with Google
               </button>
+
 
               <p className="font-semibold text-center pt-5">
                 Already Have An Account?{' '}
@@ -99,7 +115,6 @@ const Register = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };
