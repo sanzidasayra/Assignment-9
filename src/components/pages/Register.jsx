@@ -102,7 +102,7 @@ const Register = () => {
 
               <button type="submit" className="btn btn-neutral mt-4">Register</button>
 
-              <button type="button" onClick={handleGoogleSignIn} className="btn btn-neutral mt-1">
+              <button type="button" onClick={handleGoogleSignIn} className="btn btn-outline w-full mt-4">
                <FcGoogle size={24} /> Login with Google
               </button>
 
