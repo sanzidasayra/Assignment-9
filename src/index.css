@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+
+@import "tailwindcss";
+
+
+@plugin "daisyui" {
+    themes: light --default;
+}
+@plugin "daisyui/theme" {
+    name: "light";
+    default: true;
+    --color-primary: blue;
+    --color-secondary: teal;
+  }
+
+*{
+    font-family: "Tagesschrift", system-ui;
+  }
+
+
+  

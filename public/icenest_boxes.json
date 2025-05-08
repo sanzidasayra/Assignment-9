@@ -1,0 +1,279 @@
+[
+  {
+    "id": 1,
+    "name": "Frozen Delights Box",
+    "thumbnail": "https://i.ibb.co.com/fVXWMCvh/strawberry-ice-cream-bowl-front-picture-cozy-scene-802212-19.webp",
+    "banner": "https://i.ibb.co.com/N2rV9Hvf/Untitled-design.webp",
+    "frequency": "Monthly",
+    "price": 29.99,
+    "description": "Enjoy artisanal ice cream curated with winter flavors and frosty toppings.",
+    "tech_category": "Gourmet",
+    "features": [
+      "Vanilla Bean Ice Cream",
+      "Hazelnut Cups",
+      "Strawberry Snow Scoops",
+      "Mini Dry Ice Pack",
+      "Topping Set",
+      "Wooden Spoon"
+    ],
+    "subscription_benefits": [
+      "New Flavors Every Month",
+      "Eco-friendly Packaging",
+      "Member-Exclusive Flavors"
+    ],
+    "ratings": 4.9,
+    "number_of_reviews": 412
+  },
+  {
+    "id": 2,
+    "name": "Cozy Essentials Box",
+    "thumbnail": "https://i.ibb.co.com/cXcXXK1J/autumn-adventure-elements-composition.webp",
+    "banner": "https://i.postimg.cc/cJhvjV1N/Untitled-design-2.webp",
+    "frequency": "Monthly",
+    "price": 24.99,
+    "description": "Get your winter coziness with handpicked wool accessories and hand warmers.",
+    "tech_category": "Lifestyle",
+    "features": [
+      "Woolen Socks",
+      "Knitted Scarf",
+      "Ear Warmers",
+      "Pocket Hand Warmer"
+    ],
+    "subscription_benefits": [
+      "Seasonal Comfort Picks",
+      "Premium Fabric Quality",
+      "Custom Fit Options"
+    ],
+    "ratings": 4.7,
+    "number_of_reviews": 278
+  },
+  {
+    "id": 3,
+    "name": "Warm Sips Box",
+    "thumbnail": "https://i.ibb.co.com/vxbDYFCK/side-close-up-view-cup-tea-white-teapot-bowl-berries-cup-tea-with-lemon-spruce-branches-christmas-to.webp",
+    "banner": "https://i.postimg.cc/dVfyX1sV/Untitled-design-3.webp",
+    "frequency": "Monthly",
+    "price": 19.99,
+    "description": "Soothe your soul with winter-inspired teas, hot cocoa, and honey in a ceramic mug.",
+    "tech_category": "Food & Drink",
+    "features": [
+      "Herbal Tea Set",
+      "Hot Chocolate Mix",
+      "Ceramic Mug",
+      "Honey Jar"
+    ],
+    "subscription_benefits": [
+      "Organic Ingredients",
+      "New Brews Every Month",
+      "Collectible Mug Designs"
+    ],
+    "ratings": 4.8,
+    "number_of_reviews": 325
+  },
+  {
+    "id": 4,
+    "name": "Winter Glow Box",
+    "thumbnail": "https://i.ibb.co.com/hRNSYMnx/top-view-arrangement-with-spa-items-wooden-background.webp",
+    "banner": "https://i.postimg.cc/Gh29CCS8/Untitled-design-4.webp",
+    "frequency": "Monthly",
+    "price": 22.99,
+    "description": "Keep your skin radiant through the frost with winter skincare essentials.",
+    "tech_category": "Beauty",
+    "features": [
+      "Face Moisturizer",
+      "Lip Balm",
+      "Hand Cream",
+      "Shea Body Butter"
+    ],
+    "subscription_benefits": [
+      "Dermatologist Approved",
+      "Travel-Size & Full-Size Mix",
+      "Soothing Natural Ingredients"
+    ],
+    "ratings": 4.6,
+    "number_of_reviews": 310
+  },
+  {
+    "id": 5,
+    "name": "Hygge Home Box",
+    "thumbnail": "https://i.ibb.co.com/cKDxSS1D/close-up-christmas-candles.webp",
+    "banner": "https://i.postimg.cc/qqHYG4hm/Untitled-design-6.webp",
+    "frequency": "Monthly",
+    "price": 27.99,
+    "description": "Create a cozy and serene atmosphere at home with this decor-focused box.",
+    "tech_category": "Home & Living",
+    "features": [
+      "Scented Soy Candle",
+      "String LED Lights",
+      "Aroma Sachets",
+      "Fluffy Cushion Cover"
+    ],
+    "subscription_benefits": [
+      "Aesthetic Themes Monthly",
+      "Handmade & Artisan Decor",
+      "Mood Boosters"
+    ],
+    "ratings": 4.9,
+    "number_of_reviews": 198
+  },
+  {
+    "id": 6,
+    "name": "Sleep & Snuggle Box",
+    "thumbnail": "https://i.ibb.co.com/QjbvqLLm/blue-monday-composition-with-cup-tea.webp",
+    "banner": "https://i.postimg.cc/nc4xgwnj/Untitled-design-5.webp",
+    "frequency": "Monthly",
+    "price": 21.99,
+    "description": "Sleep peacefully with lavender-infused bedtime goodies and snuggly accessories.",
+    "tech_category": "Wellness",
+    "features": [
+      "Soft Sleeping Mask",
+      "Mini Pillow Spray",
+      "Cozy Bed Socks",
+      "Eucalyptus Oil"
+    ],
+    "subscription_benefits": [
+      "Sleep Aid Aromatherapy",
+      "Handpicked for Comfort",
+      "Improves Sleep Routine"
+    ],
+    "ratings": 4.8,
+    "number_of_reviews": 233
+  },
+  {
+    "id": 7,
+    "name": "Winter Reads Box",
+    "thumbnail": "https://i.ibb.co.com/8vJQmfS/mugs-with-marshmallows-drinks-near-christmas-decorations-book.webp",
+    "banner": "https://i.postimg.cc/x8sv1P2K/Untitled-design-7.png",
+    "frequency": "Monthly",
+    "price": 18.99,
+    "description": "Cozy up with seasonal stories and bookish winter goodies.",
+    "tech_category": "Books",
+    "features": [
+      "Short Winter Storybook",
+      "Bookmark",
+      "Bookish Candle",
+      "Hot Chocolate Sachet"
+    ],
+    "subscription_benefits": [
+      "Curated Reads Monthly",
+      "Exclusive Candle Scents",
+      "Themed Bookmarks"
+    ],
+    "ratings": 4.7,
+    "number_of_reviews": 198
+  },
+  {
+    "id": 8,
+    "name": "Holiday Magic Box",
+    "thumbnail": "https://i.ibb.co.com/Q7jkzx9D/Advent1-1024-copy-04cbb7ec-8291-482f-ab20-e0805e3baa05-1200x1200.webp",
+    "banner": "https://i.postimg.cc/pT2sM9w1/Untitled-design-8.webp",
+    "frequency": "Seasonal",
+    "price": 34.99,
+    "description": "Celebrate the holidays with cheerful decor, DIY kits, and festive snacks.",
+    "tech_category": "Festive",
+    "features": [
+      "Mini Snow Globe",
+      "DIY Ornament Kit",
+      "Holiday Card Set",
+      "Candy Cane & Cookies"
+    ],
+    "subscription_benefits": [
+      "Limited Edition Holiday Goodies",
+      "Creative Crafts",
+      "Joyful Packaging"
+    ],
+    "ratings": 4.9,
+    "number_of_reviews": 289
+  },
+  {
+    "id": 9,
+    "name": "Nature Chill Box",
+    "thumbnail": "https://i.ibb.co.com/mmZYsty/HD-wallpaper-december-chill-december-trees-winter-cold-water-snow-chill-beauty-nature-frost.webp",
+    "banner": "https://i.postimg.cc/MpSPmrsS/Untitled-design-9.webp",
+    "frequency": "Bi-Monthly",
+    "price": 23.99,
+    "description": "Reconnect with the winter wilderness with natural scents and quiet moments.",
+    "tech_category": "Mindfulness",
+    "features": [
+      "Pine-Scented Oil",
+      "Winter Forest Photo Print",
+      "Nature Journal",
+      "Wooden Keyring"
+    ],
+    "subscription_benefits": [
+      "Calm & Focus Tools",
+      "Nature Lover Exclusives",
+      "Prints from Local Artists"
+    ],
+    "ratings": 4.6,
+    "number_of_reviews": 174
+  },
+  {
+    "id": 10,
+    "name": "Winter Bakes Box",
+    "thumbnail": "https://i.ibb.co.com/8L3MpKd9/pexels-jmeyer1220-752499.webp",
+    "banner": "https://i.postimg.cc/j5BWgkt3/Untitled-design-10.webp",
+    "frequency": "Monthly",
+    "price": 26.99,
+    "description": "Bake festive treats with spices, cutters, and step-by-step guides.",
+    "tech_category": "Baking",
+    "features": [
+      "Cookie Cutter Set",
+      "Baking Spice Mix",
+      "Vanilla Essence",
+      "Holiday Recipe Card"
+    ],
+    "subscription_benefits": [
+      "Fun Recipes Every Month",
+      "Exclusive Cutter Designs",
+      "Kid-Friendly Bakes"
+    ],
+    "ratings": 4.8,
+    "number_of_reviews": 251
+  },
+  {
+    "id": 11,
+    "name": "Arctic Adventure Box",
+    "thumbnail": "https://i.ibb.co.com/275tnM9X/Screenshot-2025-05-06-143634.webp",
+    "banner": "https://i.postimg.cc/rsSphVhz/Untitled-design-11.png",
+    "frequency": "Quarterly",
+    "price": 31.99,
+    "description": "For the explorer in you\u2014map-inspired tools and winter-themed gear.",
+    "tech_category": "Travel",
+    "features": [
+      "Map-Themed Notebook",
+      "Snowy Mountain Sticker Set",
+      "Thermal Flask",
+      "Compass Keychain"
+    ],
+    "subscription_benefits": [
+      "Durable Outdoor Tools",
+      "Adventure-Ready Accessories",
+      "Unique Arctic Themes"
+    ],
+    "ratings": 4.7,
+    "number_of_reviews": 193
+  },
+  {
+    "id": 12,
+    "name": "Mystery Frost Box",
+    "thumbnail": "https://i.ibb.co.com/KcVPS6Hz/pexels-vikaemerson-6160284.webp",
+    "banner": "https://i.postimg.cc/cJr4pMDp/Untitled-design-12.webp",
+    "frequency": "Monthly",
+    "price": 28.99,
+    "description": "A surprise winter treat! Includes 3-4 random items from other boxes.",
+    "tech_category": "Surprise",
+    "features": [
+      "Winter-Themed Goodies",
+      "Gift Wrap & Tag",
+      "Snowflake Confetti"
+    ],
+    "subscription_benefits": [
+      "Element of Surprise",
+      "Exclusive Random Picks",
+      "Seasonal Excitement"
+    ],
+    "ratings": 4.9,
+    "number_of_reviews": 321
+  }
+]
